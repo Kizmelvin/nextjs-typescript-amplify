@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "typeamplify",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 70,
+      "apiKeyExpirationDate": "2023-04-24T19:53:34.709Z",
+      "keyDescription": "type-ampkey"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authtypeamplify22d63923"
+      }
+    ]
+  }
+}
